@@ -1,0 +1,76 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component component render correctly 1`] = `
+<div>
+  <ul
+    class="ResultsList "
+    tabindex="0"
+  >
+    <li
+      aria-selected="false"
+      class="ResultsList-item "
+      role="option"
+    >
+      <span
+        class="ResultsList-text"
+      >
+        Sydney South
+        , 
+        NSW
+      </span>
+    </li>
+    <li
+      aria-selected="false"
+      class="ResultsList-item "
+      role="option"
+    >
+      <span
+        class="ResultsList-text"
+      >
+        Sydney
+        , 
+        NSW
+      </span>
+    </li>
+    <li
+      aria-selected="true"
+      class="ResultsList-item selected"
+      role="option"
+    >
+      <span
+        class="ResultsList-text"
+      >
+        Sydney International Airport
+        , 
+        NSW
+      </span>
+    </li>
+    <li
+      aria-selected="false"
+      class="ResultsList-item "
+      role="option"
+    >
+      <span
+        class="ResultsList-text"
+      >
+        Sydney Domestic Airport
+        , 
+        NSW
+      </span>
+    </li>
+    <li
+      aria-selected="false"
+      class="ResultsList-item "
+      role="option"
+    >
+      <span
+        class="ResultsList-text"
+      >
+        Sydenham
+        , 
+        VIC
+      </span>
+    </li>
+  </ul>
+</div>
+`;

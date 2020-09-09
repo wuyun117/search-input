@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component component render correctly 1`] = `
+<div>
+  <button
+    class="Button search__body--button"
+    data-testid="search-alert-button"
+    type="button"
+  >
+    <svg
+      height="16"
+      viewBox="0 0 24 24"
+      width="24"
+    >
+      <use
+        xlink:href="icons.svg#dls-icon-arrow-right"
+      />
+    </svg>
+  </button>
+</div>
+`;

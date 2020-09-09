@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button component component render correctly 1`] = `
+<div>
+  <input
+    class="Input "
+    data-testid="search-input"
+    placeholder="Search Input"
+    type="text"
+    value="Syd"
+  />
+</div>
+`;

@@ -1,0 +1,19 @@
+@import "../styles/variables";
+
+.Button {
+  background: #fdc605;
+  border: none;
+
+  svg {
+    height: 1.5rem;
+    width: 1.5rem;
+  }
+}
+
+.search__body--button {
+  position: absolute;
+  top: 0.1rem;
+  right: 0.1rem;
+  width: $search-box-height - 0.25rem;
+  height: $search-box-height - 0.25rem;
+}
