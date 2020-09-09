@@ -75,7 +75,9 @@ const App: React.FC = () => {
   }
 
   const handleMouseHover = (item: Suggestion) => {
+    const suggestionId = suburbSuggestions.findIndex(suggestion => JSON.stringify(suggestion) === JSON.stringify(item));
     setSugestionOption(item);
+    setIndex(suggestionId);
   }
 
   const handleButtonClick = () => {

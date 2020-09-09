@@ -13,11 +13,6 @@
     margin: 0;
     padding: 0.5rem 1rem;
 
-    &:hover {
-      color: #fff;
-      background: #0058cc;
-    }
-
     .ResultsList-text {
       display: inline-block;
       font-size: 1rem;
@@ -31,6 +26,11 @@
   .selected {
     color: #fff;
     background: #0058cc;
+
+    &:hover {
+      color: #fff;
+      background: #0058cc;
+    }
   }
 }
 
