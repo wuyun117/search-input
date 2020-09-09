@@ -47,7 +47,7 @@ const ResultsList: React.FC<IResultsListProps> = (props: IResultsListProps) => {
             onClick={() => onSelect && onSelect(item)}
             onMouseEnter={() => onHover && onHover(item)}
             role="option"
-            aria-selected={index === 2 ? true : false}
+            aria-selected={selectedIndex === index ? true : false}
           >
             <span className="ResultsList-text">
               {item.name}, {item.state.abbreviation}
