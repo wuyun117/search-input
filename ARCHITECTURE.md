@@ -2,7 +2,7 @@
 
 ## Updates
 * Updated to latest react version: v16.13.1
-* Updated all class components to functional components and using hoop api
+* Updated all class components to functional components and using hook api
 * Applied Typescript into this application
 * Applied Sass into this application
 
